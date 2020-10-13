@@ -5,7 +5,7 @@
 点击、等待点击、输入、等待输入、判断元素存在、滑动等
 ### 说明
 
-####apptoolkit:获取手机的配置信息
+#### apptoolkit:获取手机的配置信息
 
 使用方法：
 ```python
@@ -14,7 +14,7 @@ def get_ios(i):
     a=[item[key] for item in ios_devices for key in item]
     return a[i]
 ```
-####element:操作方法的封装
+#### element:操作方法的封装
 
 试用方法：
 ```python
@@ -22,7 +22,7 @@ def get_ios(i):
     basepage = BasePage(driver)
     basepage.wait_click_element('id','控件名')#等待点击
 ```
-####disapp:
+#### disapp:
 用法实例
 
 ### 作者公众号：jenny chat
